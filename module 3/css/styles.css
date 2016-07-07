@@ -1,0 +1,76 @@
+body {
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+    background-color: #673ab7;
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 12px;
+}
+.navbar-brand h1 {
+    /* Brand name */
+    font-family: 'Lora', serif;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -40px;
+}
+.navbar-header button.navbar-toggle:hover {
+    clear: both;
+    margin-top: -40px;
+    background: #18ffff;
+}
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #fff;
+    background: #673ab7;
+}
+#nav-list a:hover {
+    color: #512da8;
+    background: #18ffff;
+}
+#intro {
+    font-size: 2em;
+    font-weight: bold;
+    color: #512da8;
+}
+.box-style {
+    float: left;
+    border-radius: 2%;
+    background-color: #FFF9C4;
+    padding: 0 15px 15px;
+    margin-bottom: 20px;
+}
+.region-style {
+    font-size: 1.3em;
+    color: #512da8;
+}
+#home-tiles a {
+    color: #512da8;
+    font-size: 0.8em;
+}
+
+.row {
+    overflow: hidden;
+}
+
+@media (min-width:992px) {
+
+    div.col-md-4 div.box-style {
+        margin-bottom: -99999px;
+        padding-bottom: 99999px;
+    }
+}
